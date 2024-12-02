@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 340px;
+    margin: 100px auto;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #253342;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    grid-column: 1/span 4;
+    background-color: #43a5be;
+    height: 150px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px 12px;
+    padding: 15px;
+}
+
+
+li {
+    list-style-type: none;
+    background-color: #5585a3;
+    color: white;
+    width: 100%;
+    padding: 22px 0px;
+    border: 2px solid;
+}
