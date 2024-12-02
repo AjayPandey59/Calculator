@@ -5,7 +5,7 @@
 
 div {
     width: 340px;
-    margin: 100px auto;
+    margin: 75px auto 0;
     border: 2px solid black;
     text-align: center;
     background-color: #253342;
@@ -32,4 +32,10 @@ li {
     color: white;
     width: 100%;
     padding: 22px 0px;
+    transition: ease 0.5s;
+}
+
+li:hover{
+    background-color:cadetblue;
+    transform: scale(0.9);
 }
